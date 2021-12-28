@@ -6,6 +6,7 @@ public:
     Circle(int radius);
     std::string toString(char edgeChar);
 private:
-    int diameter;
-    std::string getLine(int index, char edgeChar);
+    double radius;
+    double diameter;
+    std::string getLine(double index, char edgeChar);
 };
